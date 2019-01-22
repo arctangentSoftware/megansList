@@ -26,11 +26,17 @@ repositories {
 }
 
 dependencies {
+    // spring
     compile "org.springframework.boot:spring-boot-starter-logging"
     compile "org.springframework.boot:spring-boot-autoconfigure"
-    compile "org.grails:grails-core"
     compile "org.springframework.boot:spring-boot-starter-actuator"
     compile "org.springframework.boot:spring-boot-starter-tomcat"
+    compile 'org.grails.plugins:spring-security-core:3.2.3'
+    // extended spring security GUI
+    //compile 'org.grails.plugins:spring-security-ui:3.1.2'
+    //compile 'org.grails.plugins:spring-security-acl:3.2.1'
+    
+    compile "org.grails:grails-core"
     compile "org.grails:grails-web-boot"
     compile "org.grails:grails-logging"
     compile "org.grails:grails-plugin-rest"
@@ -47,6 +53,7 @@ dependencies {
     compile "org.hibernate:hibernate-core:5.1.5.Final"
     compile "org.grails.plugins:gsp"
     console "org.grails:grails-console"
+    compile 'org.grails.plugins:mail:2.0.0'
     profile "org.grails.profiles:web"
     runtime "org.glassfish.web:el-impl:2.1.2-b03"
     runtime "com.h2database:h2"
@@ -59,7 +66,7 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
 
-    compile 'org.grails.plugins:spring-security-core:3.2.3'
+    
 }
 
 bootRun {

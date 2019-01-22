@@ -1,4 +1,4 @@
-package megansList
+package com.megansList
 
 class UrlMappings {
 
@@ -9,7 +9,9 @@ class UrlMappings {
             }
         }
 
+        // TODO: set the sign-up page here
         "/"(view:"/index")
+        //"/" controller: 'signup', action:'newUser'
         "500"(view:'/error')
         "404"(view:'/notFound')
     }

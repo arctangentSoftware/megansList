@@ -1,4 +1,4 @@
-package megansList
+package com.megansList
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

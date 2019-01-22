@@ -6,6 +6,7 @@ import grails.plugin.springsecurity.annotation.Secured
 class PropertyManager extends User {
 
     String name
+    String email
     Boolean individual
     Address address
 

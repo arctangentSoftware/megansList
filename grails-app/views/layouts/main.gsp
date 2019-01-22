@@ -4,17 +4,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title>
-        <g:layoutTitle default="Grails"/>
+        <g:layoutTitle default="Megan's List"/>
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
+    <!--<asset:link rel="icon" href="favicon.ico" type="image/x-ico" />-->
 
     <asset:stylesheet src="application.css"/>
 
     <g:layoutHead/>
 </head>
 <body>
-
     <div class="navbar navbar-default navbar-static-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -24,9 +23,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/#">
-		    <asset:image src="grails.svg" alt="Grails Logo"/>
-                </a>
+                <div style="color: white;" href="/#">
+                    <p>Megan's List</p>
+                </div>
+                <!--<a class="navbar-brand" href="/#">-->
+		            <!--&lt;!&ndash;<asset:image src="megansListBanner.png" alt="ML Banner"/>&ndash;&gt;-->
+                <!--</a>-->
             </div>
             <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
                 <ul class="nav navbar-nav navbar-right">

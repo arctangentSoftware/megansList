@@ -26,6 +26,7 @@
             </ul>
             </g:hasErrors>
             <g:form resource="${this.property}" method="POST">
+                <!--TODO: These 'all' fieldsets are nice and all, but need to be replaced with more fine-grained control over specific fields.-->
                 <fieldset class="form">
                     <f:all bean="property"/>
                 </fieldset>

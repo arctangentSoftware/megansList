@@ -26,6 +26,7 @@
             </ul>
             </g:hasErrors>
             <g:form resource="${this.user}" method="POST">
+                <!--TODO: These 'all' fieldsets are nice and all, but need to be replaces in order to parse off stuff like Address.-->
                 <fieldset class="form">
                     <f:all bean="user"/>
                 </fieldset>
